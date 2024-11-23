@@ -1,0 +1,362 @@
+[
+      {
+        "question": "What does HTML stand for?",
+        "options": [
+          "Hyper Text Markup Language",
+          "High Text Markup Language",
+          "Hyper Tabular Markup Language",
+          "None of the above"
+        ],
+        "answer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "Which of the following elements is used to create a hyperlink?",
+        "options": [
+          "<link>",
+          "<a>",
+          "<href>",
+          "<url>"
+        ],
+        "answer": "<a>"
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": [
+          "style",
+          "font",
+          "class",
+          "styles"
+        ],
+        "answer": "style"
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+          "<break>",
+          "<lb>",
+          "<br>",
+          "<linebreak>"
+        ],
+        "answer": "<br>"
+      },
+      {
+        "question": "Which of the following tags is used to define an unordered list?",
+        "options": [
+          "<ol>",
+          "<ul>",
+          "<li>",
+          "<list>"
+        ],
+        "answer": "<ul>"
+      },
+      {
+        "question": "What is the purpose of the <head> tag in HTML?",
+        "options": [
+          "To contain metadata",
+          "To display the main content",
+          "To create a footer",
+          "To define a header"
+        ],
+        "answer": "To contain metadata"
+      },
+      {
+        "question": "Which HTML element is used to define the title of a document?",
+        "options": [
+          "<title>",
+          "<header>",
+          "<h1>",
+          "<meta>"
+        ],
+        "answer": "<title>"
+      },
+      {
+        "question": "What does the <meta> tag in HTML do?",
+        "options": [
+          "Defines the character set",
+          "Links to external stylesheets",
+          "Creates a header",
+          "None of the above"
+        ],
+        "answer": "Defines the character set"
+      },
+      {
+        "question": "Which HTML element is used to create a table?",
+        "options": [
+          "<table>",
+          "<tab>",
+          "<tbody>",
+          "<tr>"
+        ],
+        "answer": "<table>"
+      },
+      {
+        "question": "What is the correct syntax for adding a comment in HTML?",
+        "options": [
+          "// This is a comment",
+          "<!-- This is a comment -->",
+          "' This is a comment",
+          "/* This is a comment */"
+        ],
+        "answer": "<!-- This is a comment -->"
+      },
+      {
+        "question": "Which HTML element defines the footer for a document or section?",
+        "options": [
+          "<bottom>",
+          "<footer>",
+          "<section>",
+          "<foot>"
+        ],
+        "answer": "<footer>"
+      },
+      {
+        "question": "What is the correct HTML for creating a checkbox?",
+        "options": [
+          "<checkbox>",
+          "<input type='checkbox'>",
+          "<check>",
+          "<input type='check'>"
+        ],
+        "answer": "<input type='checkbox'>"
+      },
+      {
+        "question": "Which of the following is a valid HTML5 doctype?",
+        "options": [
+          "<!DOCTYPE HTML5>",
+          "<!DOCTYPE html>",
+          "<DOCTYPE html>",
+          "<!DOCTYPE HTML>"
+        ],
+        "answer": "<!DOCTYPE html>"
+      },
+      {
+        "question": "What does the <img> tag require?",
+        "options": [
+          "src attribute",
+          "href attribute",
+          "alt attribute",
+          "title attribute"
+        ],
+        "answer": "src attribute"
+      },
+      {
+        "question": "Which HTML element is used to specify a footer for a section?",
+        "options": [
+          "<footer>",
+          "<section>",
+          "<aside>",
+          "<div>"
+        ],
+        "answer": "<footer>"
+      },
+      {
+        "question": "What is the purpose of the <div> tag in HTML?",
+        "options": [
+          "To create a division or section",
+          "To define a paragraph",
+          "To create a heading",
+          "To link to stylesheets"
+        ],
+        "answer": "To create a division or section"
+      },
+      {
+        "question": "Which of the following elements is used to define a navigation section?",
+        "options": [
+          "<nav>",
+          "<navigation>",
+          "<menu>",
+          "<link>"
+        ],
+        "answer": "<nav>"
+      },
+      {
+        "question": "What is the main purpose of the <form> tag?",
+        "options": [
+          "To create a table",
+          "To collect user input",
+          "To display images",
+          "To define sections"
+        ],
+        "answer": "To collect user input"
+      },
+      {
+        "question": "Which HTML element is used to define a list item?",
+        "options": [
+          "<li>",
+          "<item>",
+          "<list>",
+          "<ul>"
+        ],
+        "answer": "<li>"
+      },
+      {
+        "question": "Which attribute is used to specify the URL of the page the link goes to?",
+        "options": [
+          "src",
+          "href",
+          "link",
+          "url"
+        ],
+        "answer": "href"
+      },
+      {
+        "question": "What is the correct HTML for creating a dropdown list?",
+        "options": [
+          "<select>",
+          "<dropdown>",
+          "<list>",
+          "<input type='dropdown'>"
+        ],
+        "answer": "<select>"
+      },
+      {
+        "question": "Which of the following is not a semantic HTML element?",
+        "options": [
+          "<article>",
+          "<section>",
+          "<div>",
+          "<header>"
+        ],
+        "answer": "<div>"
+      },
+      {
+        "question": "What is the purpose of the <title> tag?",
+        "options": [
+          "To define the title of the webpage",
+          "To create a header",
+          "To link to stylesheets",
+          "To define metadata"
+        ],
+        "answer": "To define the title of the webpage"
+      },
+      {
+        "question": "Which HTML element is used for the largest heading?",
+        "options": [
+          "<h1>",
+          "<h2>",
+          "<h3>",
+          "<h4>"
+        ],
+        "answer": "<h1>"
+      },
+      {
+        "question": "Which attribute is used to provide an alternate text for an image?",
+        "options": [
+          "src",
+          "alt",
+          "title",
+          "description"
+        ],
+        "answer": "alt"
+      },
+      {
+        "question": "What is the correct HTML for inserting a video?",
+        "options": [
+          "<video>",
+          "<media>",
+          "<movie>",
+          "<film>"
+        ],
+        "answer": "<video>"
+      },
+      {
+        "question": "What is the purpose of the <link> tag?",
+        "options": [
+          "To link to external resources",
+          "To create hyperlinks",
+          "To define metadata",
+          "To create a table"
+        ],
+        "answer": "To link to external resources"
+      },
+      {
+        "question": "Which HTML element is used to define a section in a document?",
+        "options": [
+          "<section>",
+          "<div>",
+          "<article>",
+          "<header>"
+        ],
+        "answer": "<section>"
+      },
+      {
+        "question": "What does the <canvas> element do?",
+        "options": [
+          "Defines a drawing area",
+          "Creates a table",
+          "Defines a video player",
+          "Creates a form"
+        ],
+        "answer": "Defines a drawing area"
+      },
+      {
+        "question": "Which of the following is used to create a radio button in HTML?",
+        "options": [
+          "<input type='radio'>",
+          "<radio>",
+          "<input type='button'>",
+          "<button type='radio'>"
+        ],
+        "answer": "<input type='radio'>"
+      },
+      {
+        "question": "What does the <strong> tag do?",
+        "options": [
+          "Defines important text",
+          "Defines bold text",
+          "Creates a heading",
+          "Defines a section"
+        ],
+        "answer": "Defines important text"
+      },
+      {
+        "question": "Which attribute is used to specify the width of an image?",
+        "options": [
+          "height",
+          "size",
+          "width",
+          "dimension"
+        ],
+        "answer": "width"
+      },
+      {
+        "question": "What is the purpose of the <script> tag?",
+        "options": [
+          "To define JavaScript code",
+          "To link to CSS",
+          "To create a form",
+          "To define metadata"
+        ],
+        "answer": "To define JavaScript code"
+      },
+      {
+        "question": "What is the correct HTML for creating a text area?",
+        "options": [
+          "<textarea>",
+          "<input type='textarea'>",
+          "<text>",
+          "<area>"
+        ],
+        "answer": "<textarea>"
+      },
+      {
+        "question": "Which of the following tags is used for the main content of a document?",
+        "options": [
+          "<main>",
+          "<content>",
+          "<body>",
+          "<section>"
+        ],
+        "answer": "<main>"
+      },
+      {
+        "question": "What does the <blockquote> tag do?",
+        "options": [
+          "Defines a section",
+          "Defines a quotation",
+          "Defines a list item",
+          "Defines a header"
+        ],
+        "answer": "Defines a quotation"
+      }
+    ]

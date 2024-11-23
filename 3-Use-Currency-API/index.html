@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Use Currency API</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>transfer Currency calculator</h1>
+      <h4 name="main-currency" id="main-currency-value">
+        All Currency change based on:
+      </h4>
+    </header>
+    <div class="container">
+      <div class="main-currency"></div>
+      <div class="change">
+        <div class="container">
+          <div class="currency">
+            <div class="sub-currency">
+              <label for="sub-currency-value">change to : </label>
+              <select name="sub-currency" id="sub-currency-value"></select>
+            </div>
+            <h3 id="ch-value" class="value">Price today = <span></span></h3>
+          </div>
+
+          <div class="amount">
+            <label for="amount-value">Enter Your Amount</label>
+            <input type="text" id="amount-value" value="0" />
+            <div class="your-change">
+              <h2>your change = <span>0</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,384 @@
+{
+  "quiz": [
+    {
+      "question": "What does 'var' stand for in JavaScript?",
+      "options": [
+        "Variable",
+        "Variant",
+        "Version",
+        "Validation"
+      ],
+      "answer": "Variable"
+    },
+    {
+      "question": "Which of the following is a JavaScript data type?",
+      "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the correct syntax to declare a JavaScript variable?",
+      "options": [
+        "var myVar;",
+        "declare myVar;",
+        "variable myVar;",
+        "myVar = new variable;"
+      ],
+      "answer": "var myVar;"
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "options": [
+        "function myFunction()",
+        "create myFunction()",
+        "function:myFunction()",
+        "myFunction() = function"
+      ],
+      "answer": "function myFunction()"
+    },
+    {
+      "question": "What is the output of 2 + '2' in JavaScript?",
+      "options": [
+        "22",
+        "4",
+        "undefined",
+        "Error"
+      ],
+      "answer": "22"
+    },
+    {
+      "question": "Which method is used to convert a JSON string into a JavaScript object?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.convert()",
+        "JSON.objectify()"
+      ],
+      "answer": "JSON.parse()"
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "options": [
+        "To refer to the global object",
+        "To refer to the current object",
+        "To refer to the previous object",
+        "To refer to the function itself"
+      ],
+      "answer": "To refer to the current object"
+    },
+    {
+      "question": "Which operator is used to assign a value to a variable?",
+      "options": [
+        "=",
+        "==",
+        "===",
+        "=>"
+      ],
+      "answer": "="
+    },
+    {
+      "question": "What will be the output of the following code: console.log(typeof null);?",
+      "options": [
+        "null",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "answer": "object"
+    },
+    {
+      "question": "Which of the following is a way to create an object in JavaScript?",
+      "options": [
+        "Using object literal syntax",
+        "Using the new keyword",
+        "Using Object.create()",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function that calls itself",
+        "A function that retains access to its lexical scope",
+        "A block of code that executes only once",
+        "A way to handle errors"
+      ],
+      "answer": "A function that retains access to its lexical scope"
+    },
+    {
+      "question": "What does NaN stand for?",
+      "options": [
+        "Not a Number",
+        "Not an Object",
+        "Null and Number",
+        "None of the Above"
+      ],
+      "answer": "Not a Number"
+    },
+    {
+      "question": "Which of the following is a way to loop through an array in JavaScript?",
+      "options": [
+        "for loop",
+        "forEach method",
+        "for...of loop",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the purpose of the 'debugger' statement?",
+      "options": [
+        "To pause the execution of JavaScript",
+        "To log errors",
+        "To create breakpoints",
+        "Both a and c"
+      ],
+      "answer": "Both a and c"
+    },
+    {
+      "question": "How can you prevent a form from submitting in JavaScript?",
+      "options": [
+        "event.preventDefault()",
+        "return false",
+        "stopPropagation()",
+        "Both a and b"
+      ],
+      "answer": "Both a and b"
+    },
+    {
+      "question": "What will be the output of the following code: console.log(0.1 + 0.2 === 0.3);?",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "NaN"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "options": [
+        "'==' checks for value, '===' checks for value and type",
+        "'==' checks for type, '===' checks for value and type",
+        "There is no difference",
+        "'==' is used for objects, '===' for primitives"
+      ],
+      "answer": "'==' checks for value, '===' checks for value and type"
+    },
+    {
+      "question": "Which built-in method combines the text of two strings and returns a new string?",
+      "options": [
+        "append()",
+        "concat()",
+        "attach()",
+        "join()"
+      ],
+      "answer": "concat()"
+    },
+    {
+      "question": "What is the use of the 'let' keyword?",
+      "options": [
+        "To declare a variable that is block-scoped",
+        "To declare a variable that is function-scoped",
+        "To declare a global variable",
+        "All of the above"
+      ],
+      "answer": "To declare a variable that is block-scoped"
+    },
+    {
+      "question": "Which of the following statements is true about JavaScript?",
+      "options": [
+        "JavaScript is a compiled language.",
+        "JavaScript is a server-side language.",
+        "JavaScript can be used for front-end and back-end development.",
+        "JavaScript does not support OOP."
+      ],
+      "answer": "JavaScript can be used for front-end and back-end development."
+    },
+    {
+      "question": "What is the purpose of the 'async' keyword?",
+      "options": [
+        "To make a function return a promise",
+        "To define a synchronous function",
+        "To create a generator function",
+        "To define an event listener"
+      ],
+      "answer": "To make a function return a promise"
+    },
+    {
+      "question": "Which method is used to remove the last element from an array?",
+      "options": [
+        "pop()",
+        "shift()",
+        "slice()",
+        "splice()"
+      ],
+      "answer": "pop()"
+    },
+    {
+      "question": "What does the 'map()' method do in JavaScript?",
+      "options": [
+        "Creates a new array with the results of calling a provided function on every element",
+        "Filters the array based on a condition",
+        "Reduces the array to a single value",
+        "Finds the first element that satisfies a condition"
+      ],
+      "answer": "Creates a new array with the results of calling a provided function on every element"
+    },
+    {
+      "question": "What will be the output of the following code: console.log(typeof [1, 2, 3]);?",
+      "options": [
+        "array",
+        "object",
+        "undefined",
+        "number"
+      ],
+      "answer": "object"
+    },
+    {
+      "question": "What is the purpose of the 'finally' block in a try-catch statement?",
+      "options": [
+        "To execute code regardless of whether an error occurred",
+        "To handle errors",
+        "To define a fallback value",
+        "To throw an error"
+      ],
+      "answer": "To execute code regardless of whether an error occurred"
+    },
+    {
+      "question": "How do you create a promise in JavaScript?",
+      "options": [
+        "new Promise()",
+        "Promise.create()",
+        "Promise.new()",
+        "createPromise()"
+      ],
+      "answer": "new Promise()"
+    },
+    {
+      "question": "What is the output of the following code: console.log(1 + '1');?",
+      "options": [
+        "2",
+        "11",
+        "undefined",
+        "Error"
+      ],
+      "answer": "11"
+    },
+    {
+      "question": "Which of the following is a JavaScript framework?",
+      "options": [
+        "React",
+        "Django",
+        "Ruby on Rails",
+        "Flask"
+      ],
+      "answer": "React"
+    },
+    {
+      "question": "What does the 'filter()' method do in JavaScript?",
+      "options": [
+        "Creates a new array with elements that pass the test",
+        "Creates a new array with all elements",
+        "Reduces the array to a single value",
+        "Finds the first element that satisfies a condition"
+      ],
+      "answer": "Creates a new array with elements that pass the test"
+    },
+    {
+      "question": "What is the purpose of the 'await' keyword?",
+      "options": [
+        "To pause the execution of an async function",
+        "To define a synchronous function",
+        "To create a generator function",
+        "To define an event listener"
+      ],
+      "answer": "To pause the execution of an async function"
+    },
+    {
+      "question": "Which of the following is not a JavaScript framework?",
+      "options": [
+        "Angular",
+        "Vue",
+        "Laravel",
+        "Node.js"
+      ],
+      "answer": "Laravel"
+    },
+    {
+      "question": "What is the output of the following code: console.log(1 === '1');?",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "What is the purpose of the 'setTimeout()' method?",
+      "options": [
+        "To delay the execution of a function",
+        "To repeat a function at intervals",
+        "To stop a function from executing",
+        "To create a promise"
+      ],
+      "answer": "To delay the execution of a function"
+    },
+    {
+      "question": "Which method is used to add one or more elements to the end of an array?",
+      "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "question": "What is the use of 'localStorage' in JavaScript?",
+      "options": [
+        "To store data in the browser persistently",
+        "To store data temporarily",
+        "To store data on the server",
+        "To store cookies"
+      ],
+      "answer": "To store data in the browser persistently"
+    },
+    {
+      "question": "How do you define a constant in JavaScript?",
+      "options": [
+        "const myConstant;",
+        "constant myConstant;",
+        "let myConstant;",
+        "myConstant = const;"
+      ],
+      "answer": "const myConstant;"
+    },
+    {
+      "question": "What is the output of the following code: console.log(5 == '5');?",
+      "options": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "answer": "true"
+    },
+    {
+      "question": "What is the purpose of the 'slice()' method in JavaScript?",
+      "options": [
+        "To extract a section of a string or array",
+        "To combine two arrays",
+        "To remove an element from an array",
+        "To find the index of an element"
+      ],
+      "answer": "To extract a section of a string or array"
+    }
+  ]
+}

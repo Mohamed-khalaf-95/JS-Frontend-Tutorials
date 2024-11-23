@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-info">
+        <div class="game-title">
+          <div class="game-name">Hangman Game</div>
+          <div class="logo">
+            <img src="./icon/logo.png" alt="hangman-logo" />
+          </div>
+        </div>
+        <div class="category">Word From: <span class="Word-From"></span></div>
+        <div class="lifes">lifes: <span></span></div>
+      </div>
+      <hr />
+      <!--Start Draw And Letters container -->
+      <div class="row">
+        <div class="hangman-draw left">
+          <div class="the-draw">
+            <div class="stand"></div>
+            <div class="hang"></div>
+            <div class="rope"></div>
+            <!-- Start Draw Man -->
+            <div class="man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+            <!--End Start Draw Man -->
+          </div>
+        </div>
+        <div class="letters right"></div>
+        <div class="letters-guess"></div>
+      </div>
+      <!--End Draw And Letters container -->
+      <!-- finish Game message -->
+      <div class="finish-game">
+        <button id="play-btn">Play Again</button>
+      </div>
+      <audio src="./Audio/Fail.wav" preload="auto" id="fail"></audio>
+      <audio src="./Audio/Excellent.wav" preload="auto" id="success"></audio>
+    </div>
+    <script  src="./main.js"></script>
+  </body>
+</html>

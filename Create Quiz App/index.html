@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Frontend Quiz App</title>
+    <link rel="stylesheet" href="./Syle/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="quiz-title">Web Frontend Quiz</h1>
+    </header>
+    <section class="select-quiz">
+      <div class="container">
+        <h1 class="exam">please Select Your Exam</h1>
+        <div class="btns">
+          <button class="btn" id="html">HTML</button>
+          <button class="btn" id="css">CSS</button>
+          <button class="btn" id="js">JavaScript</button>
+        </div>
+      </div>
+    </section>
+    <section class="quiz">
+      <div class="container">
+        <!--Start Quiz Info -->
+        <div class="quiz-info">
+          <div class="category">Category: <span>HTML</span></div>
+          <div class="total-question">Total Question: <span></span></div>
+        </div>
+        <!--Start quez-area Container -->
+        <div class="quiz-area"></div>
+
+        <!--start answer-area Container -->
+        <div class="answer-area">
+
+        </div>
+        <!--end answer-area Container -->
+        <div class="submit">
+          <button class="next">Next</button>
+        </div>
+        <div class="bullets">
+          <div class="spans-container"></div>
+          <div class="count-down">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="results">
+      <div class="container">
+      </div>
+      </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Scroll Progress</title>
+    <style>
+      body {
+        height: 5000px;
+        background-color: #eee;
+        margin: 0;
+      }
+      .scroller {
+        height: 5px;
+        background-color: #0075ff;
+        position: fixed;
+        left: 0;
+        top: 0;
+      }
+      .percentage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #0075ff;
+        color: white;
+        font-size: 20px;
+        position: fixed;
+        left: 50%;
+        top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroller"></div>
+    <div class="percentage">0%</div>
+    <script>
+      let el = document.querySelector(".scroller");
+      let percentage = document.querySelector(".percentage");
+      let height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      window.addEventListener("scroll", () => {
+        let scrollTop = document.documentElement.scrollTop;
+        el.style.width = `${(scrollTop / height) * 100}%`;
+        percentage.innerText = `${Math.ceil((scrollTop / height) * 100)}%`;
+      });
+    </script>
+  </body>
+</html>

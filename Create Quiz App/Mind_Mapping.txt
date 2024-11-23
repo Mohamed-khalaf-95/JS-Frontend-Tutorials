@@ -1,0 +1,20 @@
+01 - Create JSON Object For Questios
+02 - Sart Creating HTML
+03 - Add Dummy Data
+04 - Create Style (CSS)
+05 - Fetch Number Of Questios From JSON Object
+06 - Show Questios Count + Questios Category
+07 - Show The Number Of Bullets Depend On Questios Count 
+08 - Set The Number Of The Right And Wrong Answers
+09 - Craete Count Down Timer
+10 - Fetch The Questios From JSON Object
+11 - Show First Questios
+12 - Check Answers And Hide Questios And Then Show Next One
+13 - If The Count Down Timer End , Mark The Questio As Wrong And Show Next Questio
+14 - Add Class On Bullt After Answering The Questio
+15 - If Questios Ended Show The Result
+
+##Ideas 
+01 - Many JSON Object And Chosse LangUage
+02 - Add Many Questios And Chosse Only 10 Randomly 
+03 - Randomomize The Answers
